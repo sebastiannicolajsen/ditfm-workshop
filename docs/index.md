@@ -1,3 +1,3 @@
 # Pages
 
-- [example](example.md)
+- [example](example.html)

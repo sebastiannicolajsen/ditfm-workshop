@@ -31,7 +31,7 @@ for (const file of mdFiles) {
 let indexContent = '# Pages\n\n';
 for (const file of mdFiles) {
   const baseName = path.parse(file).name;
-  indexContent += `- [${baseName}](${file})\n`;
+  indexContent += `- [${baseName}](${baseName}.html)\n`;
 }
 
 await fs.writeFile(path.join(outDir, 'index.md'), indexContent);
