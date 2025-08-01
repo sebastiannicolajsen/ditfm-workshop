@@ -1,0 +1,3 @@
+# Pages
+
+- [example](example.md)
